@@ -135,12 +135,26 @@
             "contents": [
               {
                 "type": "text",
-                "text": "Duration + Due",
-                "align": "center",
-                "size": "xxs",
+                "text": "Duration",
+                "size": "xs",
                 "weight": "bold",
-                "margin": "xxl",
+                "margin": "md",
+                "color": "#FFFFFF",
                 "position": "relative"
+              },
+              {
+                "type": "text",
+                "text": "+",
+                "size": "xxs",
+                "color": "#ffffff",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "Due",
+                "size": "xs",
+                "color": "#ffffff",
+                "weight": "bold"
               }
             ],
             "cornerRadius": "xxl",
@@ -148,7 +162,13 @@
             "backgroundColor": "#00c300",
             "alignItems": "center",
             "position": "relative",
-            "height": "60px"
+            "height": "60px",
+            "margin": "none",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "hello"
+            }
           },
           {
             "type": "box",
@@ -158,10 +178,11 @@
                 "type": "text",
                 "text": "Duration",
                 "align": "center",
-                "size": "xs",
+                "size": "md",
                 "weight": "bold",
                 "margin": "xxl",
-                "position": "relative"
+                "position": "relative",
+                "color": "#FFFFFF"
               }
             ],
             "backgroundColor": "#00c300",
@@ -179,10 +200,11 @@
                 "type": "text",
                 "text": "Start + End",
                 "align": "center",
-                "size": "xs",
+                "size": "sm",
                 "weight": "bold",
                 "margin": "xxl",
-                "position": "relative"
+                "position": "relative",
+                "color": "#FFFFFF"
               }
             ],
             "backgroundColor": "#00c300",
