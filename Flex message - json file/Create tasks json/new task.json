@@ -117,13 +117,13 @@
         "contents": [
           {
             "type": "text",
-            "text": "Type task title below",
+            "text": "Type task before title yours",
             "size": "xl",
             "color": "#555555"
           },
           {
             "type": "text",
-            "text": "Ex) learn SQL",
+            "text": "Ex) task learn SQL",
             "color": "#aaaaaa"
           }
         ],
