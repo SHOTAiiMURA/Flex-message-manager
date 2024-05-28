@@ -142,7 +142,7 @@
             "action": {
               "type": "postback",
               "label": "choose priority",
-              "data": "high=priority=user",
+              "data": "high",
               "displayText": "High Priority"
             }
           },
@@ -162,7 +162,7 @@
             "action": {
               "type": "postback",
               "label": "Choose priority",
-              "data": "Choose=medium=priority",
+              "data": "medium",
               "displayText": "Medium Priority"
             }
           },
@@ -182,7 +182,7 @@
             "action": {
               "type": "postback",
               "label": "choose priority",
-              "data": "Choose=low=priority",
+              "data": "low",
               "displayText": "Low Priority"
             }
           }
