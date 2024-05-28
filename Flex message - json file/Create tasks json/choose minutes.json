@@ -136,7 +136,12 @@
             "height": "44px",
             "cornerRadius": "xxl",
             "paddingTop": "md",
-            "backgroundColor": "#08C656"
+            "backgroundColor": "#08C656",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "0 mins"
+            }
           },
           {
             "type": "box",
@@ -156,7 +161,12 @@
             "cornerRadius": "xxl",
             "paddingTop": "md",
             "width": "240px",
-            "height": "44px"
+            "height": "44px",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "15 mins"
+            }
           },
           {
             "type": "box",
@@ -164,7 +174,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "20 mins",
+                "text": "25 mins",
                 "color": "#ffffff",
                 "size": "lg",
                 "weight": "bold",
@@ -175,7 +185,12 @@
             "paddingTop": "md",
             "cornerRadius": "xxl",
             "width": "240px",
-            "height": "44px"
+            "height": "44px",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "25 mins"
+            }
           },
           {
             "type": "box",
@@ -194,7 +209,12 @@
             "cornerRadius": "xxl",
             "paddingTop": "md",
             "width": "240px",
-            "height": "44px"
+            "height": "44px",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "45 mins"
+            }
           }
         ],
         "spacing": "md"
